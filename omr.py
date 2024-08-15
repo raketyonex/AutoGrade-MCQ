@@ -132,13 +132,3 @@ def OMR(img, ans1_15, ans16_30):
         return img, total_score, n1_15, n16_30
 
     return None, None, None, None
-
-
-# if __name__ == '__main__':
-#     ans1_15 = [0, 1, 2, 3, 2, 1, 0, 1, 2, 2, 1, 1, 0, 0, 0]
-#     ans16_30 = [3, 3, 3, 3, 2, 2, 2, 2, 1, 0, 0, 0, 0, 2, 2]
-#     image_path = "omr/datas/isian2.png"
-#     result_img, total_score, n1_15, n16_30 = OMR(image_path, ans1_15, ans16_30)
-#     if result_img is not None:
-#         print("Checking:", n1_15, n16_30)
-#         print("Total Score:", total_score)
